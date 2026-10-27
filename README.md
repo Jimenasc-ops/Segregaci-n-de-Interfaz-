@@ -1,1 +1,2 @@
 # Segregaci-n-de-Interfaz-
+//Este principio busca evitar crear interfaces o calses abstractas muy grandes que fuercen a las clases a implementar metodos que no se usan, dividiendolas en interfaces mas pequeñas y especificas, para lograrlo creamos Reemplazable y Evitable, cada uno con su propia funcion. Las clases hijas solo heredan lo que realmente necesitan y el main puede obtener los objetos y utilizar sus funciones especificas de manera limpia sin cargar con metodos innnecesario.
